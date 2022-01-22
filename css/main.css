@@ -8,17 +8,16 @@
 body {
   background-color: #ffffff;
   color: #212121;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 
 /*оформляем шапку  */
 /* логотип */
 .logo {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #212121;
@@ -36,7 +35,7 @@ body {
 .pf-list {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   list-style: none;
 }
@@ -73,7 +72,7 @@ body {
 .title-hero {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -83,12 +82,9 @@ body {
   color: var(--white-color);
   background: var(--akcent-color);
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.8;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -96,9 +92,9 @@ body {
 /* начинаю работу над списком особенностей компании  */
 
 .featurs-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.4;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -108,15 +104,15 @@ body {
 
 .disc-featurs {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
 /* начинаю оформлять секцию о занятиях компании */
 .title-section {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -133,14 +129,12 @@ body {
 .title-team {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  text-align: center;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 .disc-team {
   font-size: 16px;
-  line-height: 19px;
-  text-align: center;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
@@ -148,7 +142,7 @@ body {
 /*начинаю работу над футером */
 .address {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -158,16 +152,15 @@ body {
 .info {
   text-decoration: none;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .logo-footer {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;

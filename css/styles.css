@@ -13,17 +13,16 @@
 body {
   background-color: #ffffff;
   color: #212121;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 
 /*оформляем шапку  */
 /* логотип */
 .logo {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #212121;
@@ -41,7 +40,7 @@ body {
 .pf-list {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   list-style: none;
 }
@@ -80,7 +79,7 @@ body {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -100,9 +99,9 @@ body {
   list-style: none;
 }
 .title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
@@ -113,7 +112,7 @@ body {
 
 .desc {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
@@ -121,7 +120,7 @@ body {
 /*начинаю работу над футером */
 .address {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -131,16 +130,15 @@ body {
 .info {
   text-decoration: none;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .logo-footer {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
