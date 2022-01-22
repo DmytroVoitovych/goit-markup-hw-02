@@ -117,3 +117,35 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
+
+/*начинаю работу над футером */
+.address {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer {
+  background: #2f303a;
+}
+.info {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo-footer span {
+  color: var(--akcent-color);
+}
