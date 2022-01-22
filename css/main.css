@@ -112,6 +112,38 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
+/* начинаю оформлять секцию о занятиях компании */
+.title-section {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.list-img {
+  list-style: none;
+}
+/* Начинаю оформлять секцию "Наша команда" */
+.our-team {
+  background: #f5f4fa;
+}
+.li-team {
+  background-color: var(--white-color);
+}
+.title-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.disc-team {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
 
 /*начинаю работу над футером */
 .address {
